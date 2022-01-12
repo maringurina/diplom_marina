@@ -1,0 +1,17 @@
+@import "./vars.scss";
+
+html {
+    font-family: $primary-font;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+    color: $primary-color;
+
+}
+.container {
+    max-width: 1920px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

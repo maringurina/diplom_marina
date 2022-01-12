@@ -1,3 +1,7 @@
-html {
-  background: red;
-}
+//основные стили
+@import "./main/stylesheet.scss";
+@import "./main/reset.scss";
+@import "./main/main.scss";
+
+//стили компонентов
+@import "./components/header.scss";
