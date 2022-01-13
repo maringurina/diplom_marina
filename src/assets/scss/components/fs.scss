@@ -1,0 +1,37 @@
+@import "../main/vars.scss";
+
+.fs {
+    
+    padding: 160px 0 150px;
+    &__title {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+
+        color: $primary-color;
+    }
+
+    &__text{
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 45px;
+        color: $seconary-color;
+
+    }
+
+
+}
+.fs1__container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.fs__content {
+   width: 50%;
+}
+.fs__img {
+    width: 50%;
+    background: url("..assets/imgs/bgfoto.png");
+    border-radius: 120px;
+    background: #CCF0E6;
+}
