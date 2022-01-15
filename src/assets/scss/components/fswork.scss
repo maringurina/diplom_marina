@@ -1,0 +1,50 @@
+@import "../main/vars.scss";
+
+.fswork{
+    
+    padding: 100px 0 140px;
+    
+    &__title {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 105px;
+        text-align: center;
+        color: $primary-color;
+        text-align: center;
+
+    }
+
+    &__text{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: $seconary-color;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 1030px;
+    
+    }
+}
+    .fswork__content {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .fswork__imgs {
+        width: 50%;
+        &__img{
+            width: 65%;
+            border-radius: 10px 0px 0px 10px;
+           
+        }
+    }
+    .fswork__descript {
+        width: 50%;
+        
+        &__nav {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            color: #486958;
+        }
+    }

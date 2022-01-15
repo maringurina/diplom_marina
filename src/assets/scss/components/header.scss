@@ -19,11 +19,11 @@
 }
 .name {
     font-weight: 800;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 35px;
+    line-height: 52px;
 
     color: $light-color;
-
+    margin: 0 12px;
 }
 .nav {
     &__link{
@@ -32,7 +32,8 @@
         font-size: 25px;
         line-height: 143%;
         color: $seconary-color;
-        padding: 5px 30px;
+        padding: 1px 30px;
+        margin-left: 23px;
     }
 
 }
