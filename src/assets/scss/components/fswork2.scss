@@ -1,12 +1,13 @@
 @import "../main/vars.scss";
 
 .fswork2{
-    padding: 160px 0 150px;
+    
 }    
     
 .fswork2__container {
     display: grid;
     grid-template-columns: auto;
+    grid-gap: 50px;
 
 }
 .fswork2__imgs{
@@ -36,4 +37,19 @@
         color: #486958;
 
     }
+}
+
+.fswork2__description h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: $primary-color;
+
+}
+.fswork2__description p{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: $another-color;
+
 }

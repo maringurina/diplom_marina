@@ -3,6 +3,7 @@
 .fs {
     
     padding: 160px 0 150px;
+
     &__title {
         font-weight: 800;
         font-size: 70px;
@@ -33,5 +34,5 @@
     width: 50%;
     background: url("..assets/imgs/bgfoto.png");
     border-radius: 120px;
-    background: #CCF0E6;
+    background: $background-color;
 }

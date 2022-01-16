@@ -35,7 +35,25 @@
         padding: 1px 30px;
         margin-left: 23px;
     }
+    &__link.first {
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        color: $light-color;
+    }
 
+}
+.nav-home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-home {
+    width: 48px;
+    height: 6px;
+    left: 647px;
+    top: 144px;
+    background: #FEC62D;
+    border-radius: 21px;
 }
 .btn {
     display: inline-block;
@@ -47,6 +65,10 @@
     border-radius: 15px;
     padding: 10px 15px;
     margin-left: auto;
+    width: 271px;
+    height: 80px;
+    left: 1507px;
+    top: 85px;
 
     &:hover {
         background-color: $primary-color;

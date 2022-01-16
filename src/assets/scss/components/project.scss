@@ -1,0 +1,60 @@
+@import "../main/vars.scss";
+
+.project {
+    padding: 100px 0 140px;
+
+    &__title {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        text-align: center;
+
+        color: $primary-color;
+
+    }
+    &__text {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: $seconary-color;
+    }
+    
+}
+.project__vector {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__vector {
+        text-align: center;
+    }
+}
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-column-gap: 50px ;
+}
+.grid-item h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: $light-color;
+
+}
+.grid-item p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: $another-color;
+
+}
+.item1 {
+    grid-column: 1 / 3;
+}
+.item2 {
+    grid-column: 2 / 3;
+}
+.item3{
+    grid-column: 1/2;
+}

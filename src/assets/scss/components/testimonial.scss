@@ -1,4 +1,40 @@
+.testimonial {
+
+    &__title {
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        text-align: center;
+        color: $primary-color;
+
+    }
+}
+
+.testimonial-img {
+    justify-content: space-between;
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
+    grid-template-columns: 1fr 2fr;
 
+}
+.grid-item1 {
+
+}
+.grid-item2 {
+    background-color: #CCF0E6;
+}
+
+.item-name {
+    display: flex;
+    flex-wrap: wrap;
+    &__title {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+
+        color: #486958;
+    }
 }
