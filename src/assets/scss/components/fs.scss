@@ -1,15 +1,17 @@
 @import "../main/vars.scss";
 
 .fs {
+    max-width: 1610px;
     
-    padding: 160px 0 150px;
+    padding: 130px 0 130px;
 
     &__title {
         font-weight: 800;
         font-size: 70px;
         line-height: 105px;
-
+        padding: 20px;
         color: $primary-color;
+        
     }
 
     &__text{
@@ -17,9 +19,9 @@
         font-size: 30px;
         line-height: 45px;
         color: $seconary-color;
-
+        margin-top: 146px;
+        margin-bottom: 80px;
     }
-
 
 }
 .fs1__container {

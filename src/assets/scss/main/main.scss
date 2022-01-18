@@ -8,6 +8,7 @@ html {
     font-style: normal;
     background-color: #fff;
     color: $primary-color;
+    max-width: 1920px;
 
 }
 a{
@@ -19,7 +20,7 @@ button {
     cursor: pointer;
 }
 .container {
-    max-width: 1920px;
+    width: 1610px;
     padding: 0 15px;
     margin: 0 auto;
 }

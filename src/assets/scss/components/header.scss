@@ -3,7 +3,7 @@
 .header {
 
     &__row {
-        padding: 30px 0 25px;
+        padding: 20px 0 25px;
         display: flex;
         flex-wrap: wrap;
         
@@ -13,7 +13,7 @@
 }
 
 .logo {
-    margin-right: 150px;
+    margin-right: 10px;
 
     &__img {}
 }
@@ -26,14 +26,17 @@
     margin: 0 12px;
 }
 .nav {
+    
+
     &__link{
         display: inline-block;
         font-weight: normal;
         font-size: 25px;
         line-height: 143%;
         color: $seconary-color;
-        padding: 1px 30px;
+        padding-left: 110px;
         margin-left: 23px;
+        gap: 10px;
     }
     &__link.first {
         font-weight: bold;
