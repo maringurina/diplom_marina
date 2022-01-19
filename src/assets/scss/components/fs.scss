@@ -1,7 +1,6 @@
 @import "../main/vars.scss";
 
 .fs {
-    max-width: 1610px;
     
     padding: 130px 0 130px;
 
@@ -32,9 +31,13 @@
 .fs__content {
    width: 50%;
 }
-.fs__img {
+.fs__wrap {
     width: 50%;
     background: url("..assets/imgs/bgfoto.png");
     border-radius: 120px;
     background: $background-color;
+    text-align: center;
+}
+.fs__img {
+    max-width: 100%;
 }

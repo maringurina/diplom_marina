@@ -11,8 +11,9 @@
 }
 
 .testimonial-img {
+    display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
 }
 
 .grid-container {
@@ -24,7 +25,10 @@
 
 }
 .grid-item2 {
+    display: grid;
     background-color: #CCF0E6;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content max-content max-content;
 }
 
 .item-name {
@@ -37,4 +41,9 @@
 
         color: #486958;
     }
+}
+.item3__text,
+.item3__title {
+    grid-column: 1/4;
+
 }

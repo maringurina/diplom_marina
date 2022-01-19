@@ -18,6 +18,23 @@
         line-height: 45px;
         text-align: center;
         color: $seconary-color;
+        position: relative;
+
+        &::after,
+        &::before{
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            height: 6px;
+            width: 200px;
+            background-color: $light-color;
+            transform: translateX(-50%);
+        }
+        &::after{
+            bottom: -30px;
+
+        }
     }
     
 }
