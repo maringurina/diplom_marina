@@ -19,9 +19,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    
 
 }
-.grid-item1 {
+.grid-item {
+
+    
 
 }
 .grid-item2 {
@@ -31,22 +34,25 @@
     grid-template-rows: max-content max-content max-content;
 }
 
-.item-name {
+.name {
     display: flex;
     flex-wrap: wrap;
-    &__title {
+    padding: 70px;
+
+    
+    &__text {
         font-weight: 500;
         font-size: 25px;
         line-height: 37px;
 
-        color: #486958;
+        color: $another-color;
     }
 }
 .item3__text,
 .item3__title {
     grid-column: 1/4;
 
-    &::before{
+    &:before{
         content: " “ ";
         position: absolute;
         font-family: Port Lligat Sans;
@@ -60,4 +66,11 @@
         
         transform: translateX(-50%);
     }
+}
+.item__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+
+    color: $another-color;
 }
