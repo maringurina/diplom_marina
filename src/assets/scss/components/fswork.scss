@@ -31,7 +31,7 @@
         
     }
     .fswork__imgs {
-        width: 50%;
+        width: 70%;
         &__img{
             width: 65%;
             border-radius: 10px 0px 0px 10px;
@@ -39,13 +39,40 @@
         }
     }
     .fswork__descript {
-        width: 50%;
+        width: 30%;
+        background: $background-color;
+        border-radius: 0px 10px 10px 0px;
+
+        &__description{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+
+            color: $another-color;
+
+        }
         
         &__nav {
             font-weight: bold;
             font-size: 20px;
             line-height: 30px;
             color: #486958;
+            position: relative;
+        
+            &:before {
+                content: "";
+                position: absolute;
+                left: 63.65%;
+                right: 34.95%;
+                top: 27.59%;
+                bottom: 71.73%;
+                background: #FEC62D;
+                background: #FFFFFF;
+                border-radius: 65px;
+                background: rgba(255, 255, 255, 0.4);
+                border-radius: 65px;
+
+            }
         }
     }
     .fswork__img {

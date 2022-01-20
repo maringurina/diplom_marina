@@ -1,0 +1,45 @@
+@import "../main/vars.scss";
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 100px 0 140px;
+
+    &__title{
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        text-align: center;
+        color: $primary-color;
+
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+
+        color: $another-color;
+
+    }
+}
+.contact__form {
+    width: 1109.24px;
+    height: 450px;
+    left: 668.76px;
+    top: 5316px;
+
+    border: 1px solid #486958;
+    box-sizing: border-box;
+   
+
+    &__input {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 37px;
+        color: $another-color;
+    }
+}
+.button {
+    top: 0px;
+    right: 0px;
+}
