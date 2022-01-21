@@ -32,6 +32,8 @@
     }
     .fswork__imgs {
         width: 70%;
+       
+
         &__img{
             width: 65%;
             border-radius: 10px 0px 0px 10px;
@@ -75,6 +77,10 @@
             }
         }
     }
-    .fswork__img {
-        max-width: 100%;
+    .description {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+
+        color: $another-color;
     }

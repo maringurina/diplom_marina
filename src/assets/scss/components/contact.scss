@@ -17,17 +17,31 @@
         font-weight: 500;
         font-size: 25px;
         line-height: 37px;
-
+        padding-left: 30px;
         color: $another-color;
+        position: relative;
 
+        &::after,
+        &::before{
+            content: " ";
+            position: absolute;
+            bottom: -20px;
+            left: 50px;
+            height: 6px;
+            width: 200px;
+            background-color: $light-color;
+            transform: translateX(-10%);
+        }
+        &::after{
+            bottom: -30px;
+
+        }
     }
 }
 .contact__form {
     width: 1109.24px;
     height: 450px;
-    left: 668.76px;
-    top: 5316px;
-
+    
     border: 1px solid #486958;
     box-sizing: border-box;
    
