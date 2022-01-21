@@ -35,6 +35,7 @@
     .fswork__content {
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         
     }
     .fswork__imgs {
@@ -45,16 +46,16 @@
         }
 
         &__img{
-            width: 65%;
+            width: 100%;
             border-radius: 10px 0px 0px 10px;
-           
         }
        
     }
-    .fswork__descript {
+    .fswork__description {
         width: 30%;
         background: $background-color;
         border-radius: 0px 10px 10px 0px;
+        padding: 50px;
 
         &__description{
             font-weight: 500;
@@ -62,31 +63,33 @@
             line-height: 30px;
 
             color: $another-color;
+            padding: 70px 70px;
 
         }
         
-        &__nav {
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 30px;
-            color: #486958;
-            position: relative;
+    }
+    .fswork__nav {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #486958;
+        position: relative;
+        padding-top: 50px;
+    
         
-            &:before {
-                content: "";
-                position: absolute;
-                left: 63.65%;
-                right: 34.95%;
-                top: 27.59%;
-                bottom: 71.73%;
-                background: #FEC62D;
-                background: #FFFFFF;
-                border-radius: 65px;
-                background: rgba(255, 255, 255, 0.4);
-                border-radius: 65px;
+    }
+    .triangle {
+        content: url("../imgs/Vector.png");
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        border: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        left: 0px;
+        transform: rotateX(-50%);
 
-            }
-        }
     }
     .description {
         font-weight: 500;

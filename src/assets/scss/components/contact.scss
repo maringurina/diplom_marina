@@ -44,16 +44,27 @@
     
     border: 1px solid #486958;
     box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 40px;
    
-
-    &__input {
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 37px;
-        color: $another-color;
-    }
 }
-.button {
-    top: 0px;
+.contact__group{
+    padding: 25px;
+}
+.contact__group label {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: $another-color;
+}
+.input{
+    background: none;
+    
+}
+.btn.send {
+    
+    bottom: 0px;
     right: 0px;
+    
+    
 }
