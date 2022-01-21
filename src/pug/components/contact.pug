@@ -2,8 +2,14 @@ section.contact
     .contact__content 
         h2.contact__title Contact Us
         p.contact__text Have any questions? Want help before getting started? 
-    .contact__form 
-        input Full name
-        input Email address
-        input Description
+    .contact__form
+        .form 
+            label(for="name") Full name
+            input.type="text" Full name
+        .form 
+            label(for="email") Email address
+            input.type="text" 
+       .form 
+            label(for="Description") Description
+            input.type="text"
         button.btn Send now

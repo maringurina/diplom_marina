@@ -24,6 +24,13 @@
         margin-bottom: 100px;
     
     }
+    @media (max-width: 991px){
+        font-size: 20px;
+    }
+    @media (max-width: 991px){
+        font-size: 10px;
+    }
+    
 }
     .fswork__content {
         display: flex;
@@ -33,12 +40,16 @@
     .fswork__imgs {
         width: 70%;
        
+        @media (max-width: 575px){
+            display: none;
+        }
 
         &__img{
             width: 65%;
             border-radius: 10px 0px 0px 10px;
            
         }
+       
     }
     .fswork__descript {
         width: 30%;
