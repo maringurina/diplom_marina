@@ -11,6 +11,9 @@
         padding: 20px;
         color: $primary-color;
         
+        @media (max-width: 991px){
+            font-size: 50px;
+        }
     }
 
     &__text{
@@ -37,7 +40,15 @@
     border-radius: 120px;
     background: $background-color;
     text-align: center;
+
+    @media (max-width: 575px) {
+        display: none;
+    }   
 }
 .fs__img {
     max-width: 100%;
+
+    @media (max-width: 575px) {
+        display: none;
+    }   
 }
