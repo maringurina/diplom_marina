@@ -1,129 +1,125 @@
 .testimonial {
-
-    &__title {
-        font-weight: 800;
-        font-size: 70px;
-        line-height: 105px;
-        text-align: center;
-        color: $primary-color;
-
-    }
+  &__title {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: $primary-color;
+  }
 }
 
 .testimonial-img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 40px;
-    padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 50px;
 
-    @media (max-width: 991px){
-        display: none;
-    }
+  @media (max-width: 991px) {
+    display: none;
+  }
+}
+.testimonial__foto {
+  height: 100%;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 .grid-item1 {
-    grid-column: 1/2;
-
+  grid-column: 1/2;
+  height: 100%;
 }
 .grid-item2 {
-   
-    background-color: #CCF0E6;
-    
-    
-    justify-content: stretch;
-    align-content: stretch;
-    grid-column-gap: 50px;
-    grid-row-gap: 30px ;
-    padding-left: 60px;
-    padding-top: 40px;
+  position: relative;
+  background-color: #ccf0e6;
+
+  justify-content: stretch;
+  align-content: stretch;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  padding-left: 60px;
+  padding-top: 40px;
 }
 
 .grid-name {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-   
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  padding-left: 30px;
 }
-.grid-name h3{
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 90px;
-    color: $light-color;
+.grid-name h3 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 90px;
+  color: $light-color;
 }
-.grid-name p{
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 45px;
-    color: $light-color;
-   
+.grid-name p {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+  color: $light-color;
 }
 .grid-text {
-    grid-column: 2/3;
+  grid-column: 2/3;
+  //position: relative;
 
-    &__title {
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 37px;
-        color: $another-color;
-    }
-    
-    &__text {
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 37px;
-        color: $another-color;
-    }
+  &__title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: $another-color;
+  }
 
-    
-    .item2__title {
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 37px;
-        color: $another-color;
-        padding-left: 30px;
-        padding-right: 100px;
-        padding-top: 120px;
-        z-index: 10;
-    
-        &:before{
-            content: " “ ";
-            position: absolute;
-            font-family: Port Lligat Sans;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 300px;
-            line-height: 321px;
+  &__text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: $another-color;
+  }
 
-            color: #FFFFFF;
-            transform: translateX(-50%);
-            z-index: 10;
-                        
-        }
+  .item2__title {
+    position: relative;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: $another-color;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 120px;
+    z-index: 1;
+
+    &:before {
+      content: " “ ";
+      position: absolute;
+      font-family: Port Lligat Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 300px;
+      line-height: 321px;
+
+      color: #ffffff;
+      //transform: translateX(-50%);
+      z-index: -1;
+      left: 0;
+      top: 10px;
     }
-    .item2__text{
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 37px;
-        font-style: italic;
-        color: $light-color;
-        padding-left: 30px;
-        padding-right: 100px;
-        padding-top: 50px;
-    }
+  }
+  .item2__text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    font-style: italic;
+    color: $light-color;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
 }
 .item2 {
-    grid-column: 1/2;
+  grid-column: 1/2;
 }
-.item3{
-    grid-column: 1/2;
+.item3 {
+  grid-column: 1/2;
 }
-
-
-
-  
