@@ -5,6 +5,13 @@
     grid-template-columns: 1fr 2fr;
     padding: 100px 0 140px;
 
+    @media (max-width: 991px){
+        grid-template-columns: 1fr;
+    }
+    @media (max-width: 575px){
+        grid-template-columns: 1fr;
+    }
+
     &__title{
         font-weight: 800;
         font-size: 70px;
@@ -12,6 +19,14 @@
         text-align: center;
         color: $primary-color;
 
+        @media (max-width: 991px){
+            font-size: 60px;
+            text-align: start;
+            margin-left: 90px;
+        }
+        @media (max-width: 575px){
+            font-size: 50px;
+        }
     }
     &__text {
         font-weight: 500;
@@ -20,6 +35,10 @@
         padding-left: 30px;
         color: $another-color;
         position: relative;
+
+        @media (max-width: 991px){
+            margin-left: 50px;
+        }
 
         &::after,
         &::before{
@@ -46,6 +65,15 @@
     box-sizing: border-box;
     padding-top: 50px;
     padding-left: 40px;
+
+    @media (max-width: 991px){
+        width: 900px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    @media (max-width: 575px){
+        width: 700px;
+    }
    
 }
 .contact__group{
@@ -65,9 +93,15 @@
     width: 100%;
 }
 .btn.send {
-    
-    bottom: 0px;
-    right: 0px;
-    
+    margin-left: 700px;
+
+    @media (max-width: 991px){
+        margin-left: 500px;
+       
+    }
+    @media (max-width: 575px){
+        margin-left: 300px;
+       
+    }
     
 }

@@ -11,6 +11,13 @@
 
         color: $primary-color;
 
+        @media (max-width: 991px){
+            font-size: 50px;
+        }
+        @media (max-width: 575px){
+            font-size: 40px;
+        }
+
     }
     &__text {
         font-weight: normal;
@@ -52,12 +59,21 @@
     grid-column-gap: 50px ;
     margin-top: 90px;
     justify-content: space-between;
+
+    @media (max-width: 991px){
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
 }
 .grid-item h2{
     font-weight: bold;
     font-size: 40px;
     line-height: 60px;
     color: $light-color;
+
+    @media (max-width: 991px){
+        font-size: 30px;
+    }
 
 }
 .grid-item p{
@@ -67,13 +83,12 @@
 
     color: $another-color;
 
+    @media (max-width: 991px){
+        padding-right: 100px;
+        
+    }
+
 }
 .item {
     padding: 10px 10px;
-}
-.item2 {
-    grid-column: 1/2;
-}
-.item3{
-    grid-column: 1/2;
 }

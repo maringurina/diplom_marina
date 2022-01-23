@@ -6,10 +6,17 @@
     grid-template-columns: auto;
     grid-gap: 50px;
 
+    @media (max-width: 991px){
+        display: inline;
+    }
+
 }
 .fswork2__imgs{
    
     width: 100%;
+    @media (max-width: 991px){
+        width: 70%;
+    }
 
 }
 .fswork2__description{

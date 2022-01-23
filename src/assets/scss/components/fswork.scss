@@ -13,10 +13,10 @@
         text-align: center;
 
         @media (max-width: 991px){
-            font-size: 25px;
+            font-size: 40px;
         }
-        @media (max-width: 991px){
-            font-size: 15px;
+        @media (max-width: 575px){
+            font-size: 30px;
         }
     }
     &__text{
@@ -30,14 +30,12 @@
     
     
         @media (max-width: 991px){
-            font-size: 25px;
+            font-size: 35px;
         }
-        @media (max-width: 991px){
+        @media (max-width: 575px){
             font-size: 20px;
         }
     }
-    
-    
 }
     .fswork__content {
         display: flex;
@@ -102,6 +100,17 @@
         background-repeat: no-repeat;
         background-position: center;
         left: -50px;
+
+        &::before{
+            content: "";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.4);
+            transform: translateX(-10%);
+            top: -10px;
+        }
         
 
     }

@@ -36,11 +36,16 @@
         color: $seconary-color;
         padding: 0 65px;
         position: relative;
+
+        @media (max-width: 991px){
+            padding: 0 45px;
+        }
+        @media (max-width: 575px){
+            padding: 0 25px;
+        }
     }
 
-    @media (max-width: 991px){
-        padding: 0 45px;
-    }
+    
     &__link.active {
         font-weight: bold;
         font-size: 25px;
